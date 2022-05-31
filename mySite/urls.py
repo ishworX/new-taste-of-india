@@ -19,7 +19,5 @@ from mySite import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
-    path('aboutMe/', views.aboutMe),
-    path('services/<passval>', views.dPass),  
+    path('', views.home)
 ]
