@@ -10,3 +10,7 @@ def aboutMe(request):
 
 def services(request):
     return HttpResponse("<h1> Hello World. </h1> \n This is the services page.")
+
+def dPass(request, passval):
+    return HttpResponse (passval)
+    

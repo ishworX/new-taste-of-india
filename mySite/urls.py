@@ -21,7 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('aboutMe/', views.aboutMe),
-    path('services/', views.services),
-    
-    
+    path('services/<passval>', views.dPass),  
 ]
