@@ -13,8 +13,7 @@
 
 ******************************/
 
-$(document).ready(function()
-{
+$(document).ready(function () {
 	"use strict";
 
 	/* 
@@ -32,18 +31,15 @@ $(document).ready(function()
 
 	setHeader();
 
-	$(window).on('resize', function()
-	{
+	$(window).on('resize', function () {
 		setHeader();
 
-		setTimeout(function()
-		{
+		setTimeout(function () {
 			$(window).trigger('resize.px.parallax');
 		}, 375);
 	});
 
-	$(document).on('scroll', function()
-	{
+	$(document).on('scroll', function () {
 		setHeader();
 	});
 
@@ -57,15 +53,12 @@ $(document).ready(function()
 
 	*/
 
-	function setHeader()
-	{
-		if($(window).scrollTop() > 127)
-		{
+	function setHeader() {
+		if ($(window).scrollTop() > 127) {
 			header.addClass('scrolled');
 			headerSocial.addClass('scrolled');
 		}
-		else
-		{
+		else {
 			header.removeClass('scrolled');
 			headerSocial.removeClass('scrolled');
 		}
@@ -77,47 +70,36 @@ $(document).ready(function()
 
 	*/
 
-	function initMenu()
-	{
-		if($('.menu').length)
-		{
+	function initMenu() {
+		if ($('.menu').length) {
 			var menu = $('.menu');
-			if($('.hamburger').length)
-			{
-				burger.on('click', function()
-				{
-					if(menuActive)
-					{
+			if ($('.hamburger').length) {
+				burger.on('click', function () {
+					if (menuActive) {
 						closeMenu();
 					}
-					else
-					{
+					else {
 						openMenu();
 					}
 				});
 			}
 		}
-		if($('.menu_close').length)
-		{
+		if ($('.menu_close').length) {
 			var close = $('.menu_close');
-			close.on('click', function()
-			{
-				if(menuActive)
-				{
+			close.on('click', function () {
+				if (menuActive) {
 					closeMenu();
 				}
 			});
 		}
 	}
 
-	function openMenu()
-	{
+	function openMenu() {
 		menu.addClass('active');
 		menuActive = true;
 	}
 
-	function closeMenu()
-	{
+	function closeMenu() {
 		menu.removeClass('active');
 		menuActive = false;
 	}
@@ -128,55 +110,46 @@ $(document).ready(function()
 
 	*/
 
-	function initInput()
-	{
-		if($('.inpt').length)
-		{
+	function initInput() {
+		if ($('.inpt').length) {
 			var inpt = $('.inpt');
-			inpt.each(function()
-			{
+			inpt.each(function () {
 				var ele = $(this);
 				var border = ele.next();
 
-				ele.focus(function()
-				{
-					border.css({'visibility': "visible", 'opacity': "1"});
+				ele.focus(function () {
+					border.css({ 'visibility': "visible", 'opacity': "1" });
 				});
-				ele.blur(function()
-				{
-					border.css({'visibility': "hidden", 'opacity': "0"});
+				ele.blur(function () {
+					border.css({ 'visibility': "hidden", 'opacity': "0" });
 				});
 
-				ele.on("mouseenter", function()
-				{
-					border.css({'visibility': "visible", 'opacity': "1"});
+				ele.on("mouseenter", function () {
+					border.css({ 'visibility': "visible", 'opacity': "1" });
 				});
 
-				ele.on("mouseleave", function()
-				{
-					if(!ele.is(":focus"))
-					{
-						border.css({'visibility': "hidden", 'opacity': "0"});
+				ele.on("mouseleave", function () {
+					if (!ele.is(":focus")) {
+						border.css({ 'visibility': "hidden", 'opacity': "0" });
 					}
 				});
-				
+
 			});
 		}
 	}
 
-	 /* 
+	/* 
 
-	5. Init Google Map
+   5. Init Google Map
 
-	*/
+   */
 
-	function initGoogleMap()
-	{
-		var myLatlng = new google.maps.LatLng(34.063685,-118.272936);
-    	var mapOptions = 
-    	{
-    		center: myLatlng,
-	       	zoom: 14,
+	function initGoogleMap() {
+		var myLatlng = new google.maps.LatLng(34.063685, -118.272936);
+		var mapOptions =
+		{
+			center: myLatlng,
+			zoom: 14,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			draggable: true,
 			scrollwheel: false,
@@ -191,31 +164,29 @@ $(document).ready(function()
 			rotateControl: false,
 			fullscreenControl: true,
 			styles:
-			[
-			  {
-			    "featureType": "road.highway",
-			    "elementType": "geometry.fill",
-			    "stylers": [
-			      {
-			        "color": "#ffeba1"
-			      }
-			    ]
-			  }
-			]
-    	}
+				[
+					{
+						"featureType": "road.highway",
+						"elementType": "geometry.fill",
+						"stylers": [
+							{
+								"color": "#ffeba1"
+							}
+						]
+					}
+				]
+		}
 
-    	// Initialize a map with options
-    	map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		// Initialize a map with options
+		map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 		// Re-center map after window resize
-		google.maps.event.addDomListener(window, 'resize', function()
-		{
-			setTimeout(function()
-			{
+		google.maps.event.addDomListener(window, 'resize', function () {
+			setTimeout(function () {
 				google.maps.event.trigger(map, "resize");
 				map.setCenter(myLatlng);
 			}, 1400);
 		});
 	}
-	
+
 });
