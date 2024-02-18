@@ -1,11 +1,8 @@
-# V1 of this project.
-- Used django for back end. 
-- Used HTML/CSS and Javascript for Frontend
+# React + Vite
 
-# V1.1 
-- Using just HTML, CSS and Bootstrap
-- Using Js for table booking system
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# V2.0 
-- Using ReactJs and Tailwind CSS
-- API for food ordering and booking table
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
