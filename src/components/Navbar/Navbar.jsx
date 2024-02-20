@@ -1,5 +1,9 @@
 // Wroking on the Navigation bar
+// Notes:
+//  Logo works best with White background.
+// Swithing to dark theme might make the text disapper!
 import React from 'react'
+import Logo from "../../assets/newTaste.png"
 
 export const Navbar = () => {
     return <>
@@ -8,9 +12,10 @@ export const Navbar = () => {
             <div className="flex justify-center items-center">
             <div>
             <a href='#'>
-            <img src=''
-            alt=''
-            />
+            <img src={Logo} 
+            alt='NewTasteOfIndia'
+            className='w-10'/>
+            New Taste Of India
             </a>
             </div>
 
