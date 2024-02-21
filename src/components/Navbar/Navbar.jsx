@@ -29,6 +29,10 @@ export const Navbar = () => {
                     <a href="">Contact</a>
                 </li>
             </ul>
+            <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3">
+                Order
+                <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
+              </button>
 
             </div>
         </div>
