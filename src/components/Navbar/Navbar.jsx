@@ -18,26 +18,20 @@ export const Navbar = () => {
             New Taste Of India
             </a>
             </div>
-            <ul className='flex gap-4'>
+            <ul className='hidden sm:flex gap-4'>
                 <li>
-                    <a href="">Home</a>
+                    <a href="#" className='inline-block py-4 px-4 hover:text-primary'>Home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#" className='inline-block py-4 px-4 hover:text-primary'>About</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#" className='inline-block py-4 px-4 hover:text-primary'>Contact</a>
                 </li>
             </ul>
-            <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3">
-                Order
-                <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
-                </button> 
-
             </div>
         </div>
     </div>
         </>;
     
 }
-                // button didn't show up
