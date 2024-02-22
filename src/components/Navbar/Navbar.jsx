@@ -29,9 +29,13 @@ export const Navbar = () => {
                     <a href="#" className='inline-block py-4 px-4 hover:text-primary'>Contact</a>
                 </li>
             </ul>
+            <button
+            className='bg-gradient from-primary to-secondary text-white px-4 py-1 rounded-md'>
+                Order 
+            </button>
             </div>
         </div>
     </div>
-        </>;
+    </>;
     
 }
