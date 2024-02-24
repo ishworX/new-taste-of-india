@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import darkPng from "../../assets/website/dark-mode-button.png";
-import lightPng from "../../assets/website/light-mode-button.png";
+import darkPng from "../../assets/buttons/dark-mode.png";
+import lightPng from "../../assets/buttons/light-mode.png";
 
 const DarkMode = () => {
     const [theme, setTheme] = useState(
