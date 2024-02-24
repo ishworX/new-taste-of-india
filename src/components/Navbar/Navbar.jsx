@@ -4,7 +4,7 @@
 // Swithing to dark theme might make the text disapper!
 import React from 'react'
 import Logo from "../../assets/newTaste-logo.png"
-
+import { FaCartShopping } from "react-icons/fa6";   
 export const Navbar = () => {
     return <>
         <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200'>
@@ -32,6 +32,7 @@ export const Navbar = () => {
                     </ul>
                     <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3">
                         Order
+                        <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
 
                     </button>
                 </div>
