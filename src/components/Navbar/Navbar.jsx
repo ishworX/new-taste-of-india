@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../assets/newTaste-logo.png"
+// import Logo from "../../assets/newTaste-logo.png"
 // import { FaCartShopping } from "react-icons/fa6";
 
 // const Menu = [
@@ -20,7 +20,7 @@ import Logo from "../../assets/newTaste-logo.png"
 //     },
 // ];
 
-export const Navbar = () => {
+const Navbar = () => {
     return ( <>
         <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
             <div className="container py-3 sm:py-0">
@@ -58,3 +58,5 @@ export const Navbar = () => {
     </>
  );
 };
+
+export default Navbar;
