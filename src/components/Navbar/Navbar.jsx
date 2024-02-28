@@ -1,16 +1,7 @@
-import React from 'react'
-import Logo from "../../assets/newTaste-logo.png";
+import React from 'react';
 
-const Navbar = () => {
+export const Navbar = () => {
     return (
-        <>
-        <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
-            <div className="container py-3 sm:py-0">
-                Hello
-            </div>
-        </div>
-        </>
-    );
-};
-
-export default Navbar;
+        <div>Navbar</div>
+    )
+}
