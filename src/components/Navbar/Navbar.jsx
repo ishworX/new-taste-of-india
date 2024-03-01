@@ -4,6 +4,10 @@ import Logo from "../../assets/newTaste-logo.png";
 import { FaCartShopping } from "react-icons/fa6";
 // import DarkMode from "./DarkMode";
 
+// Buttons doesnot show up
+// Responsiveness has been fixed
+
+
 const Menu = [
     {
         id: 1,
