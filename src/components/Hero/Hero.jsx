@@ -21,7 +21,14 @@ const ImageList = [
     },
 ];
 
-
+const bgImage = {
+    backgroundImage : `url(${bgImg})`,
+    backGroundPosition : "center",
+    backgorundSize : "cover",
+    backgroundRepeat : "no-repeat",
+    width: "100%",
+    height : "100%",
+};
 
 
 const Hero = () => {
