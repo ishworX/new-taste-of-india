@@ -24,7 +24,7 @@ const ImageList = [
 const bgImage = {
     backgroundImage : `url(${bgImg})`,
     backGroundPosition : "center",
-    backgorundSize : "cover",
+    backgroundSize : "cover",
     backgroundRepeat : "no-repeat",
     width: "100%",
     height : "100%",
@@ -34,13 +34,27 @@ const bgImage = {
 
 
 const Hero = () => {
-  return (
-    <div>
-        <div>
+    const[imageId, setImageId] = React.useState(HeroImage);
+    return <>
+    <div style={bgImage}
+    className='min-h-[550px] sm:min-h[600px] bg-gray-100 dark:bg-gray-950 dark:text-white duration 100 flex justify-center items-center'>
+        
+        <div className='container ph-b sm:pb-0'>
+            <div className='grid grid-cols-1 sm:grid-cols-2'>
+                {}
+                <div>
+                    <h1>
+                        Welcome to New Taste Of India 
+                    </h1>
+                </div> 
+                {}
+            </div>
+
 
         </div>
+
     </div>
-  )
-}
+        </>;
+};
 
 export default Hero
