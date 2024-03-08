@@ -9,7 +9,7 @@ const ImageList = [
         id: 1,
         img: BiryaniImg1,
     },
-    {
+    { 
         id: 2,
         img: BiryaniImg2,
     },
