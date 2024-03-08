@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Logo from "../../assets/newTaste-logo.png";
-import FaCartShopping from "react-icons/fa6";
+import { FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
 
 const Menu = [
