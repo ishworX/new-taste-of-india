@@ -53,13 +53,13 @@ const Hero = () => {
                                 {/* Anything */}
                             </h1>
                             <p className="text-sm ">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                                reiciendis inventore iste ratione ex alias quis magni at optio
+                                Serving Indian, Indo-Chinese and Nepali Cuisine
                             </p>
                             <div>
                                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                                     Order Now
                                 </button>
+
                             </div>
                         </div>
                         {/* Image section */}
