@@ -48,9 +48,9 @@ const Hero = () => {
                             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                                 Welcome to {" "}
                                 <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
-                                    New Taste of
+                                    New Taste of India
                                 </span>{" "}
-                                India
+                                {/* Anything */}
                             </h1>
                             <p className="text-sm ">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
