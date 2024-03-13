@@ -6,7 +6,13 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div>Testing if it worked properly?
+        <div>
+            <div>
+                Here will be the services section!!
+            </div>
+            <div>
+                here will be the About the restaurant option
+            </div>
         </div>
     )
 }
