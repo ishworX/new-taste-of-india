@@ -10,12 +10,7 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-            <div>
-                Here will be the services section!!
-            </div>
-            <div>
-                here will be the About the restaurant option
-            </div>
+            
         </div>
     )
 }
