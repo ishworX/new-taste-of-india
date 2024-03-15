@@ -9,8 +9,13 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div>
-            
+        <div className='py-10'>
+            <div className='container'>
+                <div className='text-center mb-20 max-w-[400px] mx-auto'>
+                    <p>Our Services</p>
+                </div>
+            </div> 
+
         </div>
     )
 }
