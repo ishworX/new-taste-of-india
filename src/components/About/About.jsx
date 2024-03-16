@@ -1,23 +1,30 @@
 import React from 'react'
 
-// things need to be done
-// About the restaurant
-// Services they provide
-// Services would siund better 
-
-// need to get pics for restaurant
+const ServicesData = [
+    {
+        id: 1,
+        img: Img2,
+        name: "Biryani",
+        description:
+            "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+    },
+    {
+        id: 2,
+        img: Img2,
+        name: "Chiken kari",
+        description:
+            "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+    },
+    {
+        id: 3,
+        img: Img2,
+        name: "Cold Cofee",
+        description:
+            "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+    },
+];
 
 const About = () => {
-    return (
-        <div className='py-10'>
-            <div className='container'>
-                <div className='text-center mb-20 max-w-[400px] mx-auto'>
-                    <p>Our Services</p>
-                </div>
-            </div> 
-
-        </div>
-    )
-}
+    
 
 export default About;
