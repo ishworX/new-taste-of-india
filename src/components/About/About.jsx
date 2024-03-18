@@ -88,3 +88,16 @@ const About = () => {
 };
 
 export default About;
+
+
+
+// Make a seperate section on about me :
+
+// Heading Title : ABOUT RESTAURANT
+// In a world that is increasingly coming closer, we seek to promote the harmony of Indian culture, cuisine and architecture. Best recipes and awesome spices are blended together in perfect ratio to give healthy meals to each and every one who come to us with the taste that lasts forever.
+
+// Serving High Quality Multi-cuisines
+// Personalised Friendly Service
+// Exclusive Catering facilities
+// New Taste Of India is designed for relaxation and great times. We provide an extensive menu of delicious Indian food and a modern environment suitable for family dinners, romantic dates, power lunches and meetups with friends. From curries bursting with flavor to exotic dishes straight from the heart of India, we welcome you into your family-operated kitchen.
+
