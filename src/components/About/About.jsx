@@ -8,21 +8,21 @@ const ServicesData = [
     {
         id: 1,
         img: Img2,
-        name: "Biryani",
+        name: "Private Party",
         description:
             "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
     },
     {
         id: 2,
         img: Img2,
-        name: "Chiken kari",
+        name: "Home Catering",
         description:
             "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
     },
     {
         id: 3,
         img: Img2,
-        name: "Cold Cofee",
+        name: "Special Occasion Dinner",
         description:
             "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
     },
