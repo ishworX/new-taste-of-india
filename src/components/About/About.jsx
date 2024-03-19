@@ -90,7 +90,7 @@ const About = () => {
 export default About;
 
 
-
+// This need to be in a seperacate section
 // Make a seperate section on about me :
 
 // Heading Title : ABOUT RESTAURANT
