@@ -10,14 +10,14 @@ const ServicesData = [
         img: Img2,
         name: "Private Party",
         description:
-            "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+            "We are able to provide a traditional Indian private party service for any of your special occasions. The New Taste Of India team's service will enable you to serve all your favourite Indian dishes to your guests, with the same high standard you would expect in our restaurant.",
     },
     {
         id: 2,
         img: Img2,
         name: "Home Catering",
         description:
-            "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+            "Make New Taste Of India the venue for vour next special occasion event or get-together functions. Music can be arranged for corporate dance and our managers will ensure your event runs smoothly. It can also be perfect for holding your office Christmas party. Special dietary requirements can be catered for.",
     },
     {
         id: 3,
