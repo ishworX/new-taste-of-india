@@ -94,8 +94,7 @@ export default About;
 // Make a seperate section on about me :
 
 // Heading Title : ABOUT RESTAURANT
-// In a world that is increasingly coming closer, we seek to promote the harmony of Indian culture, cuisine and architecture. Best recipes and awesome spices are blended together in perfect ratio to give healthy meals to each and every one who come to us with the taste that lasts forever.
-
+// 
 // Serving High Quality Multi-cuisines
 // Personalised Friendly Service
 // Exclusive Catering facilities
