@@ -22,26 +22,22 @@ const Services = () => {
                     Lorem, ipsum dolor.
                 </h1>
                 <p className="text-sm text-gray-500 tracking-wide leading-5">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eaque reiciendis inventore iste ratione ex alias quis magni at
-                    optio
+                In a world that is increasingly coming closer, we seek to promote the harmony of Indian culture, cuisine and architecture. Best recipes and awesome spices are blended together in perfect ratio to give healthy meals to each and every one who come to us with the taste that lasts forever.
                     <br />
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae ab sed, exercitationem minima aliquid eligendi
-                    distinctio? Fugit repudiandae numquam hic quo recusandae.
-                    Excepturi totam ad nam velit quasi quidem aspernatur.
+                <ul>
+                <li> Serving High Quality Multi-cuisines</li>
+                <li> Personalised Friendly Service </li>
+                <li> Exclusive Catering facilities</li>
+                </ul>
                 </p>
             </div>
             <div>Services</div>
             <p>
-                In a world that is increasingly coming closer, we seek to promote the harmony of Indian culture, cuisine and architecture. Best recipes and awesome spices are blended together in perfect ratio to give healthy meals to each and every one who come to us with the taste that lasts forever.
+
             </p>
-            <ul>
-                <li> Serving High Quality Multi-cuisines</li>
-                <li> Personalised Friendly Service </li>
-                <li> Exclusive Catering facilities</li>
-            </ul>
+            
+            
         </>
     )
 }
