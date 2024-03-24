@@ -37,3 +37,8 @@ const Services = () => {
 }
 
 export default Services
+
+// Things that needed to be fixed:?
+// List is not showing up 
+// Need a picture of the restaurant
+// Might have to change the about us message
