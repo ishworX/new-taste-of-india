@@ -48,12 +48,32 @@ const Services = () => {
                                     </ul>
                                 </p>
                             </div>
-                            
-                        </>
-                        )
-}
+                            <div className="flex gap-6">
+                                <div>
+                                    <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400" />
+                                </div>
+                                <div>
+                                    <IoFastFood className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-100 dark:bg-orange-400" />
+                                </div>
+                                <div>
+                                    <GiFoodTruck className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400" />
+                                </div>
+                            </div>
+                            <div>
+                                <button className="bg-gradient-to-r from-primary to-secondary text-white py-2 px-4 rounded-full shadow-xl hover:shadow-md">
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div >
+    </>
+  );
+};
 
-                        export default Services
+export default Services;
 
 // Things that needed to be fixed:?
 // List is not showing up 
