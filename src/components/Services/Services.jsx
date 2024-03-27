@@ -1,9 +1,9 @@
 import React from "react";
 import BiryaniImg from "../../assets/biryani5.png";
 import Vector from "../../assets/vector3.png";
-// import { GrSecure } from "react-icons/gr";
-// import { IoFastFood } from "react-icons/io5";
-// import { GiFoodTruck } from "react-icons/gi";
+import { GrSecure } from "react-icons/gr";
+import { IoFastFood } from "react-icons/io5";
+import { GiFoodTruck } from "react-icons/gi";
 
 const Services = () => {
     const bgImage = {
@@ -76,6 +76,5 @@ const Services = () => {
 export default Services;
 
 // Things that needed to be fixed:?
-// List is not showing up 
-// Need a picture of the restaurant
-// Might have to change the about us message
+// Doesnot show up in the web 
+// Lookds like something is missing
