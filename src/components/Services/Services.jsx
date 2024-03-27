@@ -76,5 +76,6 @@ const Services = () => {
 export default Services;
 
 // Things that needed to be fixed:?
-// Doesnot show up in the web 
-// Lookds like something is missing
+// Services name should be changed to About the Restaurant 
+// And About should be Services
+// Get Restaurant picture
