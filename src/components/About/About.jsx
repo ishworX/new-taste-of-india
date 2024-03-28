@@ -76,6 +76,5 @@ const About = () => {
 export default About;
 
 // Things that needed to be fixed:?
-// Services name should be changed to About the Restaurant 
 // And About should be Services
 // Get Restaurant picture

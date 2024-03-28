@@ -74,7 +74,7 @@ const Services = () => {
                         /> */}
                                     </div>
                                     <h1 className="text-xl font-bold">{service.name}</h1>
-                                    <p className="text-gray-500 group-hover:text-white duration-high text-sm line-clamp-2">
+                                    <p className="text-gray-500 group-hover:text-white duration-high text-sm line-clamp-8">
                                         {service.description}
                                     </p>
                                 </div>
