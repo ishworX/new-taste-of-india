@@ -24,7 +24,7 @@ const ServicesData = [
         img: Img2,
         name: "Special Occasion Dinner",
         description:
-            "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+            "Make New Taste Of India the venue for your next special occasion event or get-together functions. Music can be arranged for corporate dance and our managers will ensure your event runs smoothly. It can also be perfect for holding your office Christmas party. Special dietary requirements can be catered for.",
     },
 ];
 
