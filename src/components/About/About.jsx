@@ -35,18 +35,17 @@ const About = () => {
                             {/* text content section */}
                             <div className="flex flex-col justify-center gap-6 sm:pt-0">
                                 <h1 className="text-3xl sm:text-4xl font-bold">
-                                    Lorem, ipsum dolor.
+                                    About Us
                                 </h1>
                                 <p className="text-sm text-gray-500 tracking-wide leading-5">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Eaque reiciendis inventore iste ratione ex alias quis magni at
-                                    optio
+                                    In a world that is increasingly coming closer, we seek to promote the harmony of Indian culture, cuisine and architecture. Best recipes and awesome spices are blended together in perfect ratio to give healthy meals to each and every one who come to us with the taste that lasts forever.
+                                    <ul>
+                                        <li>Serving High Quality Multi-cuisines </li>
+                                        <li>Personalised Friendly Service</li>
+                                        <li>Exclusive Catering facilities</li>
+                                    </ul>
                                     <br />
-                                    <br />
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Beatae ab sed, exercitationem minima aliquid eligendi
-                                    distinctio? Fugit repudiandae numquam hic quo recusandae.
-                                    Excepturi totam ad nam velit quasi quidem aspernatur.
+                                    New Taste Of India is designed for relaxation and great times. We provide an extensive menu of delicious Indian food and a modern environment suitable for family dinners, romantic dates, power lunches and meetups with friends. From curries bursting with flavor to exotic dishes straight from the heart of India, we welcome you into your family-operated kitchen.
                                 </p>
                                 <div className="flex gap-6">
                                     <div>
