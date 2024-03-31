@@ -61,17 +61,7 @@ const Services = () => {
                                 </div>
                                 <div className="p-4 text-center">
                                     <div className="w-full ">
-                                        {/* <StarRatings
-                          rating={4}
-                          starRatedColor="yellow"
-                          isSelectable={false}
-                          starHoverColor="yellow"
-                          // starSelectingHoverColor
-                          starDimension="20px"
-                          changeRating={() => {}}
-                          numberOfStars={5}
-                          name="rating"
-                        /> */}
+
                                     </div>
                                     <h1 className="text-xl font-bold">{service.name}</h1>
                                     <p className="text-gray-500 group-hover:text-white duration-high text-sm line-clamp-8">
@@ -88,15 +78,4 @@ const Services = () => {
 };
 
 export default Services;
-
-
-// This need to be in a seperacate section
-// Make a seperate section on about me :
-
-// Heading Title : ABOUT RESTAURANT
-// 
-// Serving High Quality Multi-cuisines
-// Personalised Friendly Service
-// Exclusive Catering facilities
-// New Taste Of India is designed for relaxation and great times. We provide an extensive menu of delicious Indian food and a modern environment suitable for family dinners, romantic dates, power lunches and meetups with friends. From curries bursting with flavor to exotic dishes straight from the heart of India, we welcome you into your family-operated kitchen.
 
