@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Slider from "react-slick";
 
 const testimonialData = [
   {
@@ -23,6 +24,20 @@ const testimonialData = [
 
 
 const Testomonial = () => {
+
+  var settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    pauseOnHover: true,
+    pauseOnFocus: true,
+  };
   return (
     <div>Testomonial</div>
   )
