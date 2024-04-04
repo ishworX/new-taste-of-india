@@ -1,5 +1,5 @@
 import React from 'react';
-// import Slider from "react-slick";
+import Slider from "react-slick";
 
 const testimonialData = [
   {
@@ -87,4 +87,4 @@ const Testomonial = () => {
   );
 };
 
-export default Testimonial;
+export default Testomonial;
