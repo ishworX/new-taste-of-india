@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from "react-slick";
+import Slider from "react-slick";
 
 const testimonialData = [
   {
@@ -13,6 +13,30 @@ const testimonialData = [
     name: "Nakul Patel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
+  },
+  {
+    id: 1,
+    name: "Sarah H",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/103/103",
+  },
+  {
+    id: 1,
+    name: "Sarah H",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/103/103",
+  },
+  {
+    id: 1,
+    name: "Sarah H",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/103/103",
+  },
+  {
+    id: 1,
+    name: "Sarah H",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/103/103",
   },
   {
     id: 1,
