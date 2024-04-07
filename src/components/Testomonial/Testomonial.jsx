@@ -22,19 +22,19 @@ const testimonialData = [
   },
   {
     id: 1,
-    name: "Sarah H",
+    name: "Blake Hellewell",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
   {
     id: 1,
-    name: "Sarah H",
+    name: "Kendra Rutledge",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
   {
     id: 1,
-    name: "Sarah H",
+    name: "Hamza Al",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
