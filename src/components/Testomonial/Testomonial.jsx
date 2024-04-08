@@ -72,8 +72,7 @@ const Testomonial = () => {
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+                You can relay on our amazing features list and also our customer services will be great experience for you without doubt
             </p>
           </div>
           <div
