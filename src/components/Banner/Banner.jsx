@@ -7,6 +7,14 @@ import { GiFoodTruck } from "react-icons/gi";
 
 
 const Banner = () => {
+  const bgImage = {
+    backgroundImage: `url(${Vector})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    height: "100%",
+    width: "100%",
+  };
   return (
     <div>Banner</div>
   )
