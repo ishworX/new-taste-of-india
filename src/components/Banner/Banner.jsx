@@ -24,3 +24,7 @@ const CoverBanner = () => {
 };
 
 export default CoverBanner;
+
+// Things need to be done!
+// Advirtsement on Discount on takeouts
+// Maybe a button to call
