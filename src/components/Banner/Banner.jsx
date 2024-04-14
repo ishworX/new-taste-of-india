@@ -1,5 +1,5 @@
 import React from "react";
-import bgCoverImg from "../src/assets/biryani_cover.jpg";
+import bgCoverImg from "";
 
 const CoverBanner = () => {
   const bgImage = {
