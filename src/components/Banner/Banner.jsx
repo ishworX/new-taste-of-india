@@ -52,5 +52,5 @@ export default CoverBanner;
 
 
 // Need to make promotional banner
-// Also need ot make a Order now buttom
-// Make the button perform call when the user clisk the order
+// Also need ot make a Order now button
+// Make the button perform call when the user click the order
