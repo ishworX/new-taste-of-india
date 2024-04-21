@@ -55,5 +55,6 @@ export default CoverBanner;
 // Also need ot make a Order now button
 // Make two button: oNE FOR TAKEOUT AND another fot Delivery
 // Make the button perform call when the user click the order
-// without pics the 
+// without pics the server doesnot show up
+
 
