@@ -1,7 +1,7 @@
 import React from "react";
-// import AppStoreImg from "../../assets/order_takeout.png";
-// import PlayStoreImg from "../../assets/order_delivery.png";
-// import Gif from "../../assets/promotion.gif";
+import AppStoreImg from "../../assets/order_takeout.png";
+import PlayStoreImg from "../../assets/order_delivery.png";
+import Gif from "../../assets/promotion.gif";
 
 const CoverBanner = () => {
   return (
@@ -55,6 +55,6 @@ export default CoverBanner;
 // Also need ot make a Order now button
 // Make two button: oNE FOR TAKEOUT AND another fot Delivery
 // Make the button perform call when the user click the order
-// without pics the server doesnot show up
+// without pics the server does not show up
 
 
