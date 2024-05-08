@@ -1,0 +1,60 @@
+import React from "react";
+import AppStoreImg from "../../assets/order_takeout.png";
+import PlayStoreImg from "../../assets/order_delivery.png";
+import Gif from "../../assets/promotion.gif";
+
+const CoverBanner = () => {
+  return (
+    <>
+      <div className="bg-gray-100 dark:bg-gray-800 py-14">
+        <div className="container">
+          <div className="grid sm:grid-cols-2 grid-cols-1 items-center gap-4">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="300"
+              className="space-y-6 max-w-xl mx-auto"
+            >
+              <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold text-gray-700 dark:text-gray-400">
+                Get Discount on Takeout Orders!
+              </h1>
+              <div className="flex flex-wrap justify-center sm:justify-start items-center">
+                <a href="#">
+                  <img
+                    src={PlayStoreImg}
+                    alt="Play store"
+                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src={AppStoreImg}
+                    alt="App store"
+                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                  />
+                </a>
+              </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="300">
+              <img
+                src={Gif}
+                alt="mobile bike"
+                className="w-full sm:max-w-[60%] block rounded-md mx-auto mix-blend-multiply dark:mix-blend-difference"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default CoverBanner;
+
+
+// Need to make promotional banner
+// Also need ot make a Order now button
+// Make two button: oNE FOR TAKEOUT AND another fot Delivery
+// Make the button perform call when the user click the order
+// without pics the server does not show up
+
+
