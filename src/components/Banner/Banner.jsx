@@ -1,7 +1,7 @@
 import React from "react";
-import AppStoreImg from "../../assets/order_takeout.png";
-import PlayStoreImg from "../../assets/order_delivery.png";
-import Gif from "../../assets/promotion.gif";
+import AppStoreImg from "../../assets/food.png";
+import PlayStoreImg from "../../assets/food.png";
+import Gif from "../../assets/food1.gif";
 
 const CoverBanner = () => {
   return (
