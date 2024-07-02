@@ -14,6 +14,7 @@ const App = () => {
     <About/>
     <Services/>
     <Testomonial/>
+    <Banner/>
     </>
   )
 };
